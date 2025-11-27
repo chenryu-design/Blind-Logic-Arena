@@ -1,0 +1,44 @@
+.arena-header {
+  background: linear-gradient(135deg, #040c25, #0b2155 60%, #153a7a);
+  color: #f8fafc;
+  padding: 2.5rem 1.25rem 2rem;
+}
+
+.arena-header__content {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.arena-header__copy h1 {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  margin: 0.75rem 0;
+  line-height: 1.2;
+}
+
+.arena-header__copy p {
+  max-width: 36rem;
+  color: rgba(248, 250, 252, 0.9);
+  margin: 0;
+}
+
+.arena-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(248, 250, 252, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .arena-header__content {
+    flex-direction: column;
+  }
+}

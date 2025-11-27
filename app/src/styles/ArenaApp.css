@@ -1,0 +1,56 @@
+.arena-app {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0b1120 0%, #05070e 40%, #010102 100%);
+  color: #0f172a;
+}
+
+.arena-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.status-banner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background: rgba(15, 23, 42, 0.4);
+  color: #e2e8f0;
+  margin-bottom: 1rem;
+}
+
+.status-heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0;
+  color: rgba(226, 232, 240, 0.75);
+}
+
+.status-detail {
+  font-size: 1.5rem;
+  margin: 0.15rem 0 0;
+  font-weight: 600;
+}
+
+.message-box {
+  margin-bottom: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(37, 99, 235, 0.15);
+  color: #bfdbfe;
+}
+
+.panels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .arena-main {
+    padding: 1.5rem 1rem 2rem;
+  }
+}
